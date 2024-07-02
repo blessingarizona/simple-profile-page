@@ -3,37 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website </title>
+    <title>My Profile</title>
     <link rel="stylesheet" href="styles.css">
     <script src="index.js" defer></script>
 </head>
 <body>
-    <div class="container">
-        <h1>My Profile</h1>
-        <div class="profile">
-            <img src="pic.png" alt="Slack Profile Picture" data-testid="slackProfilePicture">
-            <div class="profile-info">
-                <p><strong>Slack Name:</strong> <span data-testid="slackDisplayName">Aritech</span></p>
-                <p><strong>Slack Email:</strong> <span data-testid="slackEmail">blessingarinze9@gmail.com</span></p>
-                <p><strong>Current Time in UTC:</strong> <span data-testid="currentTimeUTC" id="currentTimeUTC"></span></p>
-                <p><strong>Current Day:</strong> <span data-testid="currentDay" id="currentDay"></span></p>
+    <div class="section">
+        <div class="container">
+            <div class="content-section">
+                <div class="title">
+                    <h1>My Profile</h1>
+                </div>
+                <div class="image-section">
+                    <img src="pic.png" alt="Slack Profile Picture" data-testid="slackProfilePicture">
+                </div>
+                <div class="content">
+                    <p><span data-testid="slackDisplayName">Aritech</span></p>
+                <p><span data-testid="slackEmail">blessingarinze9@gmail.com</span></p>
+                <p><span data-testid="currentTimeUTC" id="currentTimeUTC"></span></p>
+                <p><span data-testid="currentDay" id="currentDay"></span></p>
+                <div class="goals">
+                    <h2>Goals:</h2>
+                    <ul>
+                        <li>Contribute to open-source projects to improve my coding skills.</li>
+                        <li>Building personal project.</li>
+                        <li>Continuously improve my knowledge of as a software engineer.</li>
+                    </ul>
+                </div>
+                <div class="button">
+                    <h2>Learning Resources:</h2>
+                        <a href="https://hng.tech/learn" data-testid="hngLink">hng.tech/learn</a>
+                        <a href="https://keyword.dog" data-testid="keywordLink">keyword.dog</a>
+                        <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">scrapeanyweb.site</a>
+                </div>
+                </div>   
             </div>
-        </div>
-        <div class="goals">
-            <h2>Goals:</h2>
-            <ul>
-                <li>Contribute to open-source projects to improve my coding skills.</li>
-                <li>Building personal project.</li>
-                <li>Continuously improve my knowledge of as a software engineer.</li>
-            </ul>
-        </div>
-        <div class="links">
-            <h2>Learning Resources:</h2>
-            <ul>
-                <li><a href="https://hng.tech/learn" data-testid="hngLink">hng.tech/learn</a></li>
-                <li><a href="https://keyword.dog" data-testid="keywordLink">keyword.dog</a></li>
-                <li><a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">scrapeanyweb.site</a></li>
-            </ul>
         </div>
     </div>
 </body>
